@@ -1,0 +1,446 @@
+
+.menu{
+    /* background: rgba(0, 0, 0, 1); */
+    background: rgb(47, 72, 170);
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #3efc83;
+}
+.navbar-brand  img{
+    width: 100px;
+}
+.navbar-light .navbar-brand{
+    color: #EC7224 !important;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+.navbar-light .navbar-brand:hover{
+    color: #EC7224;
+}
+.navbar .navbar-brand:hover{
+    color: #ee7724;
+}
+.navbar-brand{
+    color: #EC7224;
+}
+.navbar-brand:hover{
+    color: #ee7724;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------  STYLING HOME PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.slider .slide img{
+    height: 90vh;
+}
+.slider{
+    position: relative;
+
+}
+.slider .slide-text{
+    position: absolute;
+    color: #fff;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    width: 100%;
+    height: 90vh;
+    padding-top: 160px;
+    background:rgba(0, 0, 0, 0.3);
+}
+.slider .slide-text h1{
+    /* width: 30%; */
+    letter-spacing: 8px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+}
+.slider .slide-text h1 span{
+    color: #3efc83;
+}
+.slider .slide-text p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+.home-page{
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------- END OF STYLING HOME PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------ STYLING fLOWERS PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.flowers{
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+}
+.flowers .card{
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.flowers .card img{
+    height: 40vh;
+    width: 100%;
+}
+.flowers .card:hover{
+    transform: scale(1.03);
+
+}
+.flowers .heading{
+    font-style: italic;
+    font-weight: 100;
+    font-family: "Brush Script MT, Brush Script Std, cursive";
+    color: #EC7224;
+    letter-spacing: 5px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------- END OF STYLING FLOWERS PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------  STYLING REGISTER PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.card{
+    background: rgba(0, 0, 0, 0.7);
+}
+.card label{
+    color: #fff;
+}
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------END OF STYLING REGISTER PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------  STYLING LOGIN PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.gradient-form{
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-form label{
+    color: #fff;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------- END OF STYLING REGISTER PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------  STYLING CONTACT US PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.contact_us{
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+}
+
+.contact_us .cards .col-lg-4{
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    cursor: pointer;
+    /* margin: 1px; */
+    /* width: 90%; */
+    width: 30%;
+    margin: 0 18px;
+    padding: 60px 0;
+    transition: .5s ease-in-out;
+}
+.contact_us .cards .col-lg-4:hover{
+    transform: scale(1.05);
+}
+.contact_us .icon i{
+    background-color: rgb(50, 50, 50);
+    border-radius: 50%;
+    color: #3efc83;
+    padding: 30px;
+    font-size: 50px;
+}
+.contact_us h3{
+    color: rgb(255, 253, 253);
+    padding: 5px 0;
+}
+.contact_us .card{
+    background: rgba(0, 0, 0, 0.6);
+}
+.map iframe{
+    border: 1px solid rgb(29, 255, 4);
+    border-radius: 20px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------- END OF STYLING CONTACT US PAGE ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------- ----- STYLING FOOTER SECTION ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer{
+    background: rgba(0, 0, 0, 0.8);
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li{
+    color:#fff;
+    line-height: 30px;
+}
+.footer ul li i{
+    color: #ee7724;
+    padding: 0 5px;
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .navbar-brand span{
+    color: #EC7224;
+}
+.footer p{
+    color: #fff;
+}
+.footer .footer-menu-heading h5{
+    color: #3efc83;
+    text-transform: uppercase;
+    /* border-bottom: 1px solid #3efc83; */
+    /* display: inline-flex; */
+    /* width: 20%; */
+    /* margin: auto; */
+    display: inline;
+    /* margin-left: 20px; */
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------- END OF STYLING FOOTER SECTION ------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------- STYLING ADMIN DASHBOARD SECTION ----------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.admin .admin-menu{
+    background: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    /* height: 100vh; */
+}
+.admin .admin-menu ul{
+    list-style: none;
+}
+.admin .admin-menu ul li{
+    background-color: #EC7224;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.admin .admin-menu ul li a button{
+    background-color: #EC7224;
+    border: none;
+    line-height: 36px;
+    color: #fff;
+}
+.admin .admin-menu ul li a{
+    text-transform: capitalize;
+    /* background: #EC7224; */
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    width: 100%;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+
+.logout{
+    padding: 30px;
+}
+
+
+.admin .content{
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    width: 87%;
+    /* padding: 20px; */
+}
+.admin .content h1{
+    background: #666666;
+    padding: 20px;
+}
+/* image fields */
+.image-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------ STYLING POPUP SECTION  --------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
+#thankyou {
+    font-size: 25px;
+    background-color: #fff;
+}
+
+/* Styles for the popup */
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #6ED649;
+}
+.popup-content .checkbtn{
+    margin-top: -40px;
+    border-radius: 50%;
+    padding: 10px 18px;
+    font-size: 30px;
+    color: #fff;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------ STYLING POPUP SECTION END  -----------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------*/
