@@ -11,7 +11,7 @@ if( isset( $_POST['login']))  {
         session_start();
         $_SESSION['username'] = $username;
         $_SESSION['password'] = $password;
-        header("Location: http://localhost/flowers/admin");
+        header("Location: http://localhost/flower-encyclopedia/admin");
     } else {
         ?>
         <script type="text/javascript">

@@ -23,7 +23,7 @@ if( isset( $_GET['id'] ) ) {
         </div>
         <div class="col-12 text-center">
             <div class="images">
-                <img src="/flowers/admin/pages/uploads/<?php echo $row['images']; ?>" class="img-fluid" style="height: 80vh; width: 70%" alt="">
+                <img src="/flower-encyclopedia/admin/pages/uploads/<?php echo $row['images']; ?>" class="img-fluid" style="height: 80vh; width: 70%" alt="">
             </div>
         </div>
         <div class="content text-start py-2">

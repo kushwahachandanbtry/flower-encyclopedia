@@ -171,6 +171,6 @@ if (isset($_POST['add'])) {
 </script>
 <?php  
 } else {
-    header( "Location: http://localhost/flowers/admin/login.php");
+    header( "Location: http://localhost/flower-encyclopedia/admin/login.php");
 }
 ?>

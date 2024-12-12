@@ -12,7 +12,7 @@ include_once ("includes/header.php");
 <div class="admin d-flex">
     
     <div class="admin-menu">
-        <a class="navbar-brand" href="http://localhost/flowers/admin/"><img src="../assets/images/login.webp" class="img-fluid" alt=""><span>Lily's Bloom</span></a>
+        <a class="navbar-brand" href="http://localhost/flower-encyclopedia/admin/"><img src="../assets/images/login.webp" class="img-fluid" alt=""><span>Lily's Bloom</span></a>
         <ul class="py-3">
             <li><a href="?pages=all-flowers"><button>All Flowers</button></a></li>
             <li><a href="?pages=add-new-flowers"><button>Add New Flowers</button></a></li>
@@ -40,5 +40,5 @@ include_once ("includes/header.php");
 <?php
 include_once ("includes/footer.php");
             } else {
-                header( "Location: http://localhost/flowers/admin/login.php");
+                header( "Location: http://localhost/flower-encyclopedia/admin/login.php");
             }

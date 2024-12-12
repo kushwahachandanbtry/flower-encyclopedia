@@ -144,7 +144,7 @@ if (mysqli_num_rows($result) > 0) {
                 if ($page > 1) {
                     ?>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/flowers/admin/?pages=all-flowers&&page= <?php echo $page - 1; ?>">Prev</a>
+                            href="http://localhost/flower-encyclopedia/admin/?pages=all-flowers&&page= <?php echo $page - 1; ?>">Prev</a>
                     </li>
                     <?php
                 }
@@ -156,14 +156,14 @@ if (mysqli_num_rows($result) > 0) {
                     }
                     ?>
                     <li class="page-item <?php echo $active; ?>"><a class="page-link"
-                            href="http://localhost/flowers/admin/?pages=all-flowers&&page= <?php echo $i; ?>"><?php echo $i; ?></a>
+                            href="http://localhost/flower-encyclopedia/admin/?pages=all-flowers&&page= <?php echo $i; ?>"><?php echo $i; ?></a>
                     </li>
                     <?php
                 }
                 if ($total_pages > $page) {
                     ?>
                     <li class="page-item"><a class="page-link"
-                            href="http://localhost/flowers/admin/?pages=all-flowers&&page= <?php echo $page + 1; ?>">Next</a>
+                            href="http://localhost/flower-encyclopedia/admin/?pages=all-flowers&&page= <?php echo $page + 1; ?>">Next</a>
                     </li>
                     <?php
                 }
@@ -262,6 +262,6 @@ if (mysqli_num_rows($result) > 0) {
 <?php 
 
 } else {
-    header( "Location: http://localhost/flowers/admin/login.php");
+    header( "Location: http://localhost/flower-encyclopedia/admin/login.php");
 }
 ?>

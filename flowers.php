@@ -23,7 +23,7 @@ include_once ("includes/menu.php");
                         <?php while( $row = mysqli_fetch_assoc( $result ) ) { ?>
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="<?php echo '/flowers/admin/pages/uploads/' . $row['images']; ?>" class="card-img-top" alt="...">
+                    <img src="<?php echo '/flower-encyclopedia/admin/pages/uploads/' . $row['images']; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title text-light text-uppercase"><?php  echo $row['name']; ?></h4>
                         <p class="card-text text-light"><?php
