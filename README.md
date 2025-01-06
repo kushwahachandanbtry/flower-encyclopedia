@@ -1,4 +1,4 @@
-## flower-encyclopedia
+## Flower Encyclopedia
 This is a flowers encyclopedia website, that's help to know about different flowers.
 
 ## Key Features:
@@ -14,4 +14,5 @@ This is a flowers encyclopedia website, that's help to know about different flow
 4. PHP
 
 ## Dashboard Access
--> Email : chandan@gmail.com,  password : chandan
+* Email : chandan@gmail.com
+* password : chandan
